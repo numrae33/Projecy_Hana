@@ -1,0 +1,15 @@
+# Secrets
+.env
+*.env
+Token_*.env
+
+# Personal data (real IDs, names, sound files)
+config.json
+sounds/
+last*.txt
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
