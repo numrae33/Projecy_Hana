@@ -1,0 +1,38 @@
+{
+  "ffmpeg_executable": "ffmpeg",
+  "allowed_channel_id": 111111111111111111,
+  "owner_id": 222222222222222222,
+  "owner_name": "OwnerName",
+  "admin_role_ids": [333333333333333333],
+  "enable_shutdown_command": false,
+
+  "user_names": {
+    "222222222222222222": "OwnerName",
+    "444444444444444444": "Friend A",
+    "555555555555555555": "Friend B"
+  },
+
+  "greeting_sounds": {
+    "222222222222222222": "sounds/hi_owner.mp3",
+    "444444444444444444": "sounds/hi_friend_a.mp3"
+  },
+  "join_sounds": {
+    "222222222222222222": "sounds/join_owner.mp3",
+    "444444444444444444": "sounds/join_friend_a.mp3"
+  },
+  "back_sounds": {
+    "222222222222222222": "sounds/back_owner.mp3",
+    "444444444444444444": "sounds/back_friend_a.mp3"
+  },
+  "default_join_sound": "sounds/join_default.mp3",
+  "default_back_sound": "sounds/back_default.mp3",
+
+  "youtube_channels": [
+    {
+      "youtube_id": "UC_EXAMPLE_CHANNEL_ID",
+      "name": "Example Channel",
+      "discord_channel": 666666666666666666,
+      "last_file": "last_example.txt"
+    }
+  ]
+}
